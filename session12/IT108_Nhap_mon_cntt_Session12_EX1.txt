@@ -1,0 +1,122 @@
+﻿Bài 1 : Chuẩn hóa quy trình đối soát giao dịch ví điện tử 
+PHẦN 1: PHÂN TÍCH (Yêu cầu đầu ra)
+Xác định Record và Field trong bảng Excel giao dịch
+* Field là: STT, Mã đối tác, Số giao dịch, Doanh số,...
+* Record là: MB, VietComBank, 1,000,000,....
+PHẦN 2: TRIỂN KHAI BỘ 3 FILE (Word, Excel, PowerPoint)
+1. File Word: Tài liệu mô tả tính năng (SRS) – Hoàn tiền ví PayKX
+Yêu cầu: Thiết kế cấu trúc tài liệu SRS dài 5 trang. Bắt buộc sử dụng Auto TOC và phân cấp Heading 1, 2 rõ ràng cho các yêu cầu chức năng.
+Dàn trang & Nội dung chi tiết từng trang:
+TRANG 1: Trang bìa & Mục lục tự động (Auto TOC)
+* Header: Logo PayKX – Ví điện tử cho sinh viên.
+* Tiêu đề lớn: TÀI LIỆU MÔ TẢ TÍNH NĂNG (SRS) - TÍNH NĂNG HOÀN TIỀN .
+* Thông tin văn bản: Phiên bản: 1.0 | Ngày: 20/05/2024 | Tác giả: Trưởng dự án PayKX.
+MỤC LỤC (Auto Table of Contents )
+* 1. Giới thiệu (Heading 1)
+* 1.1. Mục đích  (Heading 2)
+* 1.2. Phạm vi  (Heading 2)
+
+
+* 2.Tổng quan tính năng (Heading 1)
+* 2.1. Mô tả chung (Heading 2)
+* 2.2. Nguyên tắc hoạt động (Heading 2)
+
+
+* 3. Luồng nghiệp vụ & Điều kiện (Heading 1)
+* 3.1. Điều kiện hoàn tiền (Heading 2)
+* 3.2. Quy trình hoàn tiền (Heading 2)
+
+
+* Mô tả chi tiết tính năng (SRS) (Heading 1)
+* 4.1. Tạo yêu cầu hoàn tiền  (Heading 2)
+* 4.2. Xử lý logic hoàn tiền (Heading 2)
+* 4.3. Thông báo kết quả(Heading 2)
+
+
+* Quy định & Giới hạn (Heading 1)
+* 5.1. Giới hạn số tiền hoàn (Heading 2)
+* 5.2. Giời gian xử lí (Heading 2)
+
+
+
+
+TRANG 2: Giới thiệu & Tổng quan tính năng
+* 1. Giới thiệu (Heading 1)
+* 1.1. Mục đích tài liệu (Heading 2): Tài liệu này mô tả chi tiết yêu cầu kỹ thuật và cách thức hoạt động của tính năng hoàn tiền trong  ví điện tử PayKX
+* 1.2. Phạm vi áp dụng (Heading 2): Áp dụng cho tất cả giao dịch thanh toán, nạp tiền và dịch vụ trên ứng dụng PayKX.
+
+
+* 2. Tổng quan tính năng (Heading 1)
+* 2.1. Mô tả chung (Heading 2): Tính năng cho phép người dùng nhận lại tiền vào ví PayKX trong các trường hợp được chấp nhận hoàn tiền theo chính sách.
+* 2.2. Nguyên tắc hoạt động (Heading 2):
+*  Yêu cầu hoàn tiền được tạo bởi người dùng hoặc hệ thống
+* Hệ thống  kiểm tra điều kiện và thực hiện hoàn tiền hợp lệ.
+* Tiền hoàn được ghi có vào ví PayKX và thông báo tới người dùng.
+
+
+TRANG 3: Luồng nghiệp vụ & Điều kiện 
+* 3.1. Điều kiện hoàn tiền (Heading 2)
+* 3.2. Quy trình hoàn tiền (Heading 2)
+
+
+TRANG 4: Mô tả chi tiết tính năng 
+* 4.1. Tạo yêu cầu hoàn tiền  (Heading 2)
+* 4.2. Xử lý logic hoàn tiền (Heading 2)
+* 4.3. Thông báo kết quả(Heading 2)
+
+
+TRANG 5: Quy định & Giới hạn 
+* 5.1. Giới hạn số tiền hoàn (Heading 2)
+* 5.2. Giời gian xử lí (Heading 2)
+
+
+Footer: Trang 1/5 | PayKX | paykx.vn | support@paykx.vn.
+
+
+
+
+
+
+* Slide 1: Slide Tiêu đề (Title Slide)
+* Tiêu đề: BÁO CÁO LỖ LÃI THÁNG 05/2024
+* Tiêu đề phụ (Assertion): Tăng trưởng doanh thu mạnh – Tối ưu chi phí đối tác
+* Người trình bày: Trưởng dự án PayKX
+
+
+* Slide 2: Tổng quan chỉ số tài chính (KPIs Overview)
+* Assertion Title: Lợi nhuận sau thuế đạt 2,89 Tỷ VNĐ nhờ tối ưu tốt chi phí thanh toán
+* Trực quan
+* Doanh thu thuần: 12,45 Tỷ VNĐ (+18,6%)
+* Tổng chi phí: 7,28 Tỷ VNĐ (+12,1%)
+* Lợi nhuận gộp: 5,17 Tỷ VNĐ (+27,4%)
+* Lợi nhuận sau thuế: 2,89 Tỷ VNĐ (+31,2%)
+
+
+* Slide 3: Biến động dòng tiền & Doanh thu theo tháng
+* Assertion Title: Doanh thu tăng liên tục qua 5 tháng và lập đỉnh 12,45 Tỷ trong Tháng 05
+* Trực quan: Biểu đồ cột 
+* Thể hiện doanh thu từ T01 đến T05 (T01: 7,28B | T02: 7,01B | T03: 9,36B | T04: 10,50B | T05: 12,45B)
+
+
+* Slide 4: Cơ cấu chi phí hoạt động
+* Assertion Title: Phí đối tác ngân hàng chiếm tỷ trọng lớn nhất với 45% tổng chi phí 
+* Trực quan: Biểu đồ tròn 
+* Phí đối tác & ngân hàng: 46%
+* Chi phí vận hành: 28%
+* Chi phí marketing: 16%
+* Khác: 11%
+
+
+PHẦN 3: KIỂM THỬ (Quy trình 4 điểm tìm nguyên nhân lỗi #N/A)
+1. Kiểm tra sự tồn tại của giá trị dò tìm (Lookup Value có trong bảng tham chiếu không?)
+* Nguyên nhân: Giá trị cần tra cứu không có trong cột đầu tiên của bảng tham chiếu (Lookup Table).
+     2.    Kiểm tra khoảng trắng thừa và ký tự ẩn
+* Nguyên nhân: Mã đem dò hoặc mã trong bảng nguồn chứa dấu cách ngầm 
+    3.     Kiểm tra định dạng dữ liệu
+* Nguyên nhân: Một bên lưu ở dạng số Number, bên còn lại lưu ở dạng chuỗi văn bản  , khiến Excel coi chúng là 2 giá trị khác nhau.
+
+
+    4.     Kiểm tra tham số Range_lookup và Cố định vùng bảng dò
+* Nguyên nhân:
+* Chưa đặt tham số cuối cùng là False, khiến hàm tìm kiếm gần đúng và bảng nguồn chưa được sắp xếp.
+* Quên cố định tuyệt đối vùng bảng tham chiếu nên khi kéo công thức xuống dưới, bảng tra cứu bị trượt làm mất vùng chứa dữ liệu.
